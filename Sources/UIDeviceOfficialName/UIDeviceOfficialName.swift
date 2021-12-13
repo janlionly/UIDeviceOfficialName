@@ -56,6 +56,10 @@ public extension UIDevice {
             "iPhone13,2" : "iPhone 12",
             "iPhone13,3" : "iPhone 12 Pro",
             "iPhone13,4" : "iPhone 12 Pro Max",
+            "iPhone14,2" : "iPhone 13 Pro",
+            "iPhone14,3" : "iPhone 13 Pro Max",
+            "iPhone14,4" : "iPhone 13 Mini",
+            "iPhone14,5" : "iPhone 13",
 
             "iPod1,1" : "1st Gen iPod",
             "iPod2,1" : "2nd Gen iPod",
@@ -125,8 +129,20 @@ public extension UIDevice {
             "iPad11,4" : "iPad Air 3rd Gen",
             "iPad11,6" : "iPad 8th Gen (WiFi)",
             "iPad11,7" : "iPad 8th Gen (WiFi+Cellular)",
+            "iPad12,1" : "iPad 9th Gen",
+            "iPad12,2" : "iPad 9th Gen",
             "iPad13,1" : "iPad air 4th Gen (WiFi)",
-            "iPad13,2" : "iPad air 4th Gen (WiFi+Celular)"
+            "iPad13,2" : "iPad air 4th Gen (WiFi+Celular)",
+            "iPad13,4" : "iPad Pro 11 inch 3rd Gen",
+            "iPad13,5" : "iPad Pro 11 inch 3rd Gen",
+            "iPad13,6" : "iPad Pro 11 inch 3rd Gen",
+            "iPad13,7" : "iPad Pro 11 inch 3rd Gen",
+            "iPad13,8" : "iPad Pro 12.9 inch 5th Gen",
+            "iPad13,9" : "iPad Pro 12.9 inch 5th Gen",
+            "iPad13,10" : "iPad Pro 12.9 inch 5th Gen",
+            "iPad13,11" : "iPad Pro 12.9 inch 5th Gen",
+            "iPad14,1" : "iPad mini 6th Gen",
+            "iPad14,2" : "iPad mini 6th Gen"
         ]
         let model = UIDevice.current.modelName
         return deviceModelToNames[model] ?? "UnDefined New Device"
